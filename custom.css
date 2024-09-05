@@ -1,5 +1,5 @@
 /*-------------------------------------*/
-/* Ensure #top-header behaves correctly on mobile */
+/* Estilos personalizados para el carrito */
 #top-header .container {
     display: flex;
     flex-direction: row;
@@ -9,11 +9,9 @@
     line-height: 1.5em;
 }
 
-/* First row: phone on the left, email on the right */
 #et-info {
     width: 100%;
     font-size: 2vh !important;
-    box-sizing: border-box;
     line-height: 1.5em !important;
 }
 
@@ -34,7 +32,6 @@
     display: flex !important;
 }
 
-/* Ensure cart icon and text are centered */
 .et-cart-info {
     text-align: center;
     font-size: 2vh !important;
