@@ -3,7 +3,7 @@
 Plugin Name: Mini Cart in Real Time
 Description: Actualiza el mini carrito en tiempo real y maneja la interacción con el tema Divi.
 Version: 1.0
-Author:Pierofgonzalez
+Author: Tu Nombre
 */
 
 // Seguridad: evitar el acceso directo
