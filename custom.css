@@ -1,0 +1,48 @@
+/*-------------------------------------*/
+/* Ensure #top-header behaves correctly on mobile */
+#top-header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    max-width: 100%;
+    line-height: 1.5em;
+}
+
+/* First row: phone on the left, email on the right */
+#et-info {
+    width: 100%;
+    font-size: 2vh !important;
+    box-sizing: border-box;
+    line-height: 1.5em !important;
+}
+
+#et-info-phone {
+    text-align: left;
+    flex: 0.5;
+    font-size: 2vh !important;
+    margin-left: 1vw !important;
+}
+
+#et-info-email {
+    text-align: right;
+    flex: 0.5;
+    font-size: 2vh !important;
+}
+
+#et-secondary-nav, #et-secondary-menu {
+    display: flex !important;
+}
+
+/* Ensure cart icon and text are centered */
+.et-cart-info {
+    text-align: center;
+    font-size: 2vh !important;
+}
+
+.et_secondary_nav_enabled #page-container #top-header {
+    height: 12vh;
+    line-height: 1rem;
+    max-width: 100% !important;
+}
+/*-------------------------------------*/
